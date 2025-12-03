@@ -4,6 +4,8 @@ Implementação e comparação de duas estratégias de **Re-Ranking** para mitig
 
 Este projeto foi feito para a disciplina SCC0284 / SCC5966 - Sistemas de Recomendação ICMC-USP
 
+O público-alvo são estudantes e profissionais da área de Sistemas de Recomendação. Há um formulário no final da página para avaliação do projeto.
+
 ## Funcionalidades
 
 O projeto utiliza o dataset **MovieLens 100k** e implementa as seguintes etapas:
@@ -60,3 +62,8 @@ Ao final da execução, você verá dois gráficos demonstrando que:
 
 1.  **Penalização por Popularidade:** Tende a aumentar a diversidade de forma segura, com baixo impacto negativo no RMSE.
 2.  **MMR:** É extremamente agressivo no aumento da diversidade (podendo atingir \~70% de cobertura do catálogo), mas causa uma degradação maior na precisão das notas (aumento do RMSE).
+
+## Avaliação do projeto
+
+Por favor, avalie o projeto por meio deste [formulário](https://forms.gle/VGwdsntLCKRFBFnY8)
+
